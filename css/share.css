@@ -49,13 +49,10 @@ input.sharebox {
 	height: 50px;
 	cursor: pointer;}
 
-.domain-input, .share-a {
-	display: none;}
-
 input.sharebox:checked + .share-button {
 	width: 200px;}
 
-input.sharebox:checked + .share-button .domain-input {
+.domain-input {
 	display: inline-block;
 	position: relative;
 	letter-spacing: normal;
@@ -63,7 +60,7 @@ input.sharebox:checked + .share-button .domain-input {
 	width: 100px;
 	height: 100%;}
 
-input.sharebox:checked + .share-button .share-a {
+.share-a {
 	display: inline-block;
 	position: relative;
 	vertical-align: top;
