@@ -44,6 +44,10 @@ $(function(){
 			case 'stumbleupon_s':
 				$(this).attr('href','http://www.stumbleupon.com/submit?url='+ pageUrl +'&title='+ pageTitle);
 			break;
+				
+			case 'weibo_s':
+				$(this).attr('href','http://service.weibo.com/share/share.php?title='+ pageTitle +'&url='+ pageUrl);
+			break;
 
 			case 'mixi_s':
 				$(this).attr('href','https://mixi.jp/simplepost/voice?status='+ pageTitle +'%20'+ pageUrl);
