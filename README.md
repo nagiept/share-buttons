@@ -16,6 +16,7 @@ If you want to share to distributed social networks, you can share by click the 
 * linkedin
 * ВКонтакте (VK)
 * Stumbleupon
+* mixi
 * LINE
 * はてなブックマーク
 * GNU social
