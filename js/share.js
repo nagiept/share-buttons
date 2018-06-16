@@ -61,7 +61,7 @@ $(function(){
 				$(this).attr('href','http://b.hatena.ne.jp/add?mode=confirm&url='+ pageUrl +'&title='+ pageTitle);
 			break;
 				
-			case 'pocket_s'
+			case 'pocket_s':
 				$(this).attr('href','http://getpocket.com/edit?url='+ pageUrl);
 			break;
 
