@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset=UTF-8>
+	<title>Nageia</title>
+	<link rel="stylesheet" href="/css/share.css">
+	<link rel="stylesheet" href="/css/icomoon/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-awesome@1.1.0/css/fork-awesome.min.css" integrity="sha256-sX8HLspqYoXVPetzJRE4wPhIhDBu2NB0kYpufzkQSms=" crossorigin="anonymous">
+	<script type="text/javascript" src="/js/jquery-3.3.1.min.js"></script>
+	<script src="/js/share.js"></script>
+</head>
+<body>
+	<div claas="share-wrapper">
+		<ul class="share-ul">
+			<li class="share-button twitter-b">
+				<a class="share" id="twitter_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-twitter"></i>
+			</li>
+			<li class="share-button facebook-b">
+				<a class="share" id="facebook_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fa fa-facebook" aria-hidden="true"></i>
+			</li>
+			<li class="share-button tumblr-b">
+				<a class="share" id="tumblr_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-tumblr"></i>
+			</li>
+			<li class="share-button googleplus-b">
+				<a class="share" id="googleplus_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-google-plus-g"></i>
+			</li>
+			<li class="share-button pinterest-b">
+				<a class="share" id="pinterest_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-pinterest-p"></i>
+			</li>
+			<li class="share-button linkedin-b">
+				<a class="share" id="linkedin_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-linkedin-in"></i>
+			</li>
+			<li class="share-button vk-b">
+				<a class="share" id="vk_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-vk"></i>
+			</li>
+			<li class="share-button stumbleupon-b">
+				<a class="share" id="stumbleupon_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="fab fa-stumbleupon"></i>
+			</li>
+			<li class="share-button line-b">
+				<a class="share" id="line_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="icon-line"></i>
+			</li>
+			<li class="share-button hatebu-b">
+				<a class="share" id="hatebu_s" href="" target="_blank" rel="nofollow"></a>
+				<i class="icon-hatebu"></i>
+			</li>
+			<input class="sharebox" type="checkbox" id="gnusocial-l">
+			<li class="share-button gnusocial-b">
+				<label for="gnusocial-l"><i class="fa fa-gnu-social" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="gnusocial" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="gnusocial_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+			<input class="sharebox" type="checkbox" id="mastodon-l">
+			<li class="share-button mastodon-b">
+				<label for="mastodon-l"><i class="fa fa-mastodon" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="mastodon" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="mastodon_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+			<input class="sharebox" type="checkbox" id="diaspora-l">
+			<li class="share-button diaspora-b">
+				<label for="diaspora-l"><i class="fa fa-diaspora" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="diaspora" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="diaspora_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+			<input class="sharebox" type="checkbox" id="friendica-l">
+			<li class="share-button friendica-b">
+				<label for="friendica-l"><i class="fa fa-friendica" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="friendica" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="friendica_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+			<input class="sharebox" type="checkbox" id="socialhome-l">
+			<li class="share-button socialhome-b">
+				<label for="socialhome-l"><i class="fa fa-social-home" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="socialhome" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="socialhome_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+			<input class="sharebox" type="checkbox" id="hubzilla-l">
+			<li class="share-button hubzilla-b">
+				<label for="hubzilla-l"><i class="fa fa-hubzilla" aria-hidden="true"></i></label>
+				<div class="domain-input">
+					<input type="url" id="hubzilla" placeholder="Domain" required>
+				</div>
+				<div class="share-a">
+					<a class="share" id="hubzilla_s" href="" target="_blank" rel="nofollow"></a>
+					<i class="fas fa-share"></i>
+				</div>
+			</li>
+		</ul>
+	</div>
+</body>
