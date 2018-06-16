@@ -110,8 +110,11 @@ input.sharebox:checked + .share-button {
 .stumbleupon-b {
 	background: #eb4924;}
 
+.weibo-b {
+	background: #df2029;}
+
 .mixi-b {
-	background: #d1ad59}
+	background: #d1ad59;}
 
 .line-b {
 	background: #1dcd00;}
