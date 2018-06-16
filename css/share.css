@@ -122,6 +122,9 @@ input.sharebox:checked + .share-button {
 .hatebu-b {
 	background: #008fde;}
 
+.pocket-b {
+	background: #ef3f56;}
+
 .gnusocial-b {
 	background: #a22430;}
 
