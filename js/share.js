@@ -50,7 +50,7 @@ $(function(){
 			break;
 
 			case 'hatebu_s':
-				$(this).attr('href','http://b.hatena.ne.jp/add?mode=confirm&url='+ pageTitle +'&title='+ pageUrl);
+				$(this).attr('href','http://b.hatena.ne.jp/add?mode=confirm&url='+ pageUrl +'&title='+ pageTitle);
 			break;
 
 			case 'gnusocial_s':
